@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap");
+
+body {
+	background: radial-gradient(
+				circle at 50% 59%,
+				#d2caab 3%,
+				#364e27 4%,
+				#364e27 11%,
+				rgba(54, 78, 39, 0) 12%,
+				rgba(54, 78, 39, 0)
+			)
+			50px 0,
+		radial-gradient(
+				circle at 50% 41%,
+				#364e27 3%,
+				#d2caab 4%,
+				#d2caab 11%,
+				rgba(210, 202, 171, 0) 12%,
+				rgba(210, 202, 171, 0)
+			)
+			50px 0,
+		radial-gradient(
+				circle at 50% 59%,
+				#d2caab 3%,
+				#364e27 4%,
+				#364e27 11%,
+				rgba(54, 78, 39, 0) 12%,
+				rgba(54, 78, 39, 0)
+			)
+			0 50px,
+		radial-gradient(
+				circle at 50% 41%,
+				#364e27 3%,
+				#d2caab 4%,
+				#d2caab 11%,
+				rgba(210, 202, 171, 0) 12%,
+				rgba(210, 202, 171, 0)
+			)
+			0 50px,
+		radial-gradient(circle at 100% 50%, #d2caab 16%, rgba(210, 202, 171, 0) 17%),
+		radial-gradient(circle at 0% 50%, #364e27 16%, rgba(54, 78, 39, 0) 17%),
+		radial-gradient(circle at 100% 50%, #d2caab 16%, rgba(210, 202, 171, 0) 17%)
+			50px 50px,
+		radial-gradient(circle at 0% 50%, #364e27 16%, rgba(54, 78, 39, 0) 17%) 50px
+			50px;
+	background-color: #2b6e63;
+	background-size: 100px 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-family: "Prompt", sans-serif;
+}
+
+svg {
+	border: 2px solid black;
+	box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+	background-color: #fff;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+.container {
+	position: relative;
+}
+
+.tooltip {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.4);
+	color: #000;
+	display: none;
+	position: absolute;
+	z-index: 100;
+	text-align: center;
+	opacity: 0.8;
+}
+
+.tooltip.show {
+	display: block;
+}
+
+.tooltip p {
+	margin: 5px;
+}
+
+h1,
+h3 {
+	border-radius: 5px;
+	box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
+	background-color: #fff;
+	padding: 10px;
+	margin-top: 0px;
+	font-weight: 500;
+}
